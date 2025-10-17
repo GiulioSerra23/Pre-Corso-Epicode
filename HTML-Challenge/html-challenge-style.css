@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@401&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: rgb(27, 27, 27);
+}
+
+#intestazione {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#general {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+#colonnasinistra {
+  background-color: whitesmoke;
+  color: rgb(27, 27, 27);
+  flex: 1;
+  min-width: 300px;
+  border: 10px solid #69689e;
+  border-radius: 30px;
+  padding: 20px;
+  max-width: 450px;
+}
+
+#colonnadestra {
+  color: whitesmoke;
+  background-color: #69689e;
+  flex: 2;
+  min-width: 300px;
+  padding: 20px;
+  border-radius: 30px;
+  margin-left: 20px;
+  max-width: 1849px;
+}
+
+.pan {
+  border-top: 1px solid #ccc;
+  padding: 15px 0 ;
+}
+
+#conctactlist,
+#softwarelist {
+  list-style: none;
+  padding-left: 0;
+}
+
+#softwarelist li::before {
+  content: "• ";
+  color: #4fd2d1;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+#summary,
+#education,
+.work {
+  margin-bottom: 30px;
+}

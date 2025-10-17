@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    height: 90vh;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+form {
+    border: 15px solid rgb(12, 112, 17);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 0px 0px rgb(90, 196, 90);
+    background-color: rgb(231, 255, 231);
+}
+
+.notch{
+    margin: 0 auto;
+    width: 40%;
+    height: 20px;
+    border-bottom: 15px solid rgb(12, 112, 17);
+    border-left: 15px solid rgb(12, 112, 17);
+    border-right: 15px solid rgb(12, 112, 17);
+    border-radius: 0 0 25px 25px;
+    box-shadow: 4px 6px 0px 0px rgb(90, 196, 90);
+}
+
+h1 {
+    display: flex;
+    font-size: 60px;
+    justify-self: center;
+    color: rgb(12, 112, 17);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.main p {
+    align-self: flex-start;
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+    color: rgb(12, 112, 17);
+}
+
+.input-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    margin-bottom: 8px;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+#date p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#date {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.checkboxes {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    color: rgb(12, 112, 17);
+}
+
+ul {
+    margin: 0;
+}
+
+.other {
+    font-style: oblique; 
+    font-family:'Times New Roman', Times, serif;
+}
+
+#privacy-policy {
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: rgb(12, 112, 17);
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(90, 196, 90);
+    cursor: pointer;
+}
+
+.bottom-line { 
+    border-radius: 10px;
+    margin-top: 70px;
+    width: 40%;
+    background-color: rgb(12, 112, 17);
+    height: 20px;
+    box-shadow: 2px 5px 0px 0px rgb(90, 196, 90);
+}
+

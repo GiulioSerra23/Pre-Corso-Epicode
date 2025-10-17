@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontend-challenge-style.css"/>
+      <title>Frontend Challenge</title>
+</head>
+<body>
+    <div class="main">
+        <form onsubmit="alert('Form inviato!');">
+          <div class="notch"></div>
+          <h1>Parlami di te!</h1>
+          <p>Compila i tuoi dati:</p>
+          <div class="input-boxes">
+            <input  type="text" placeholder="Nome"> 
+            <input  type="text" placeholder="Cognome"> 
+            <input  type="email" placeholder="La tua email"> 
+            <input  type="password" placeholder="La tua password"> 
+            <input  type="number" placeholder="Il tuo numero di telefono">           
+          </div>
+          <div id="date">
+             <p> La tua data di nascita: </p>
+             <input style="border-radius: 7px; padding: 1px;" type="date" placeholder="La tua data di nascita"> 
+          </div>
+          <div class="checkboxes">
+             <p> Seleziona i generi musicali che ascolti: </p>
+           <ul>
+             <li> Rap <input type="checkbox"></li>
+             <li> Rock <input type="checkbox"></li>
+             <li> Pop <input type="checkbox"></li>
+             <li> Hip Hop <input type="checkbox"></li>
+             <li> Jazz <input type="checkbox"></li>
+             <li> Altro <span class="other"> (indica quali) </span> <input type="text"></li>
+           </ul> 
+           <p id="privacy-policy" > Accetto la privacy policy <input type="radio"> </p> 
+           <button type="submit">Invia!</button>
+           <div class="bottom-line"></div>
+          </div>
+      </form>
+       </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>
